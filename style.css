@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+input,
+button,
+textarea {
+    display: block;
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+textarea {
+    height: 80px;
+}
+
+#response {
+    width: 600px;
+    height: 600px;
+}
